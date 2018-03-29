@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/opcion1"
+        android:orderInCategory="1"
+        android:title="@string/ver_detalle_1"
+        app:showAsAction="never"></item>
+    <item android:id="@+id/opcion2"
+        android:orderInCategory="2"
+        android:title="@string/ver_detalle_2"
+        app:showAsAction="never"></item>
+    <item android:id="@+id/opcion3"
+        android:orderInCategory="3"
+        android:title="@string/ver_detalle_3"
+        app:showAsAction="never"></item>
+    <item android:id="@+id/actualizar"
+        android:icon="@android:drawable/stat_notify_sync_noanim"
+        app:showAsAction="always"></item>
+</menu>
